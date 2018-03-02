@@ -21,6 +21,7 @@ function myFunction(count){
 
 myFunction(6);
 
+// Person Object
 const person = {
     fName: 'Stephens',
     lName: 'Jean-Jacques',
