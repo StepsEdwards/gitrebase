@@ -1,13 +1,16 @@
 console.log('Hello World!')
 console.log('Hello World Again!!!');
 
-// Multiples of 17
-const numArr = [];
-for(i = 0; i < 100; i++){
-    if(i % 17 == 0)
-        numArr.push(i);
-} 
-console.log(numArr);  
+// Uniform Array
+function uniformArr(num){
+    const uniArr = [];
+    for(i = 0; i < num; i++){
+        uniArr.push(num);
+    }
+    console.log(uniArr);
+}
+uniformArr(4);
+uniformArr(7);
 
 // myFunction
 function myFunction(count){
@@ -20,6 +23,15 @@ function myFunction(count){
 }
 
 myFunction(6);
+
+// Car Object
+const car = {
+    make: 'Toyota',
+    model: 'Corolla',
+    color: 'Blue',
+    engine: 'v8'
+}
+console.log(car);
 
 // Person Object
 const person = {
