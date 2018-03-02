@@ -1,12 +1,10 @@
-// TEST CHANGES
-
 console.log('Hello World!')
 console.log('Hello World Again!!!');
 
-// Multiples of 13
+// Multiples of 17
 const numArr = [];
 for(i = 0; i < 100; i++){
-    if(i % 13 == 0)
+    if(i % 17 == 0)
         numArr.push(i);
 } 
 console.log(numArr);  
@@ -22,3 +20,12 @@ function myFunction(count){
 }
 
 myFunction(6);
+
+const person = {
+    fName: 'Stephens',
+    lName: 'Jean-Jacques',
+    sex: 'Male',
+    race: 'African American',
+    disabled: false
+}
+console.log(person);
